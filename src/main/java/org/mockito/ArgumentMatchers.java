@@ -778,7 +778,7 @@ public class ArgumentMatchers {
      * </p>
      *
      * @param value the given value.
-     * @return <code>0</code>.
+     * @return <code>false</code>.
      */
     public static boolean eq(boolean value) {
         reportMatcher(new Equals(value));
